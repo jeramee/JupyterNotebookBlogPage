@@ -87,7 +87,7 @@ def getStocks():
 # Start of program
 # Create our charts folder
 try:
-    Path("charts").mkdir()
+    Path("../charts").mkdir()
 except FileExistsError:
     pass
 
